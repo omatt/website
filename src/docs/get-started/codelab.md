@@ -96,14 +96,10 @@ You need only run the config command once.
 After you enable web support, every Flutter app you
 create also compiles for the web. In your IDE under
 the **devices** pulldown, or at the command line
-using `flutter devices`, you should now see **Chrome**
-and **Web server** listed. The **Chrome** device
-automatically starts Chrome. The **Web server**
-starts a server that hosts the app so that you can
-load it from any browser. Use the Chrome device during
-development so that you can use DevTools,
-and the web server when you want to test on
-other browsers. For more information,
+using `flutter devices`, you should now see **Chrome** 
+listed. The **Chrome** device automatically starts Chrome. 
+Use the Chrome device during development so that 
+you can use DevTools. For more information, 
 see [Building a web application with Flutter][]
 and [Write your first Flutter app on the web][codelab-web].
 
