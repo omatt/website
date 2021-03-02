@@ -86,20 +86,17 @@ $ flutter config --enable-web
 
 Once web is enabled,
 the `flutter devices` command outputs a `Chrome` device
-that opens the Chrome browser with your app running,
-and a `Web Server` that provides the URL serving the app.
+that opens the Chrome browser with your app running.
 
 ```terminal
 $ flutter devices
-2 connected device:
+1 connected device:
 
-Web Server • web-server • web-javascript • Flutter Tools
 Chrome     • chrome     • web-javascript • Google Chrome 81.0.4044.129
 ```
 
 **After enabling web support, restart your IDE.**
-You should now see **Chrome (web)** and
-**Web Server (web)** in the device pulldown.
+You should now see **Chrome (web)** in the device pulldown.
 
 {{site.alert.note}}
   You only need to execute `flutter config --enable-web` once.
